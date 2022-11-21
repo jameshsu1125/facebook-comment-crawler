@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 /* eslint-disable import/no-extraneous-dependencies */
 // ? => https://github.com/tailwindlabs/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 const color = require('tailwindcss/colors');
@@ -18,5 +19,5 @@ module.exports = {
 			quaternary: '#00ff00',
 		},
 	},
-	plugins: [],
+	plugins: [require('daisyui')],
 };
